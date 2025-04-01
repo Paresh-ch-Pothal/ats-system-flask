@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Upload Form</title>
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 500px;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h4 class="center-align">Upload Job Details</h4>
+
+        <form action="/upload_job" method="POST">
+
+            <!-- Job ID -->
+            <div class="input-field">
+                <input type="number" id="job_id" name="job_id" required>
+                <label for="job_id">Job ID</label>
+            </div>
+
+            <!-- Job Role -->
+            <div class="input-field">
+                <input type="text" id="job_role" name="job_role" required>
+                <label for="job_role">Job Role</label>
+            </div>
+
+            <!-- Job Description -->
+            <div class="input-field">
+                <textarea id="job_description" name="job_description" class="materialize-textarea" required></textarea>
+                <label for="job_description">Job Description</label>
+            </div>
+
+            <!-- Skills (Comma Separated) -->
+            <div class="input-field">
+                <input type="text" id="skills" name="skills" placeholder="e.g. Cybersecurity, Penetration Testing" required>
+                <label for="skills">Skills (comma-separated)</label>
+            </div>
+
+            <!-- Experience (Years) -->
+            <div class="input-field">
+                <input type="number" id="experience" name="experience" step="0.1" required>
+                <label for="experience">Experience (Years)</label>
+            </div>
+
+            <!-- CGPA -->
+            <div class="input-field">
+                <input type="number" id="cgpa" name="cgpa" step="0.1" required>
+                <label for="cgpa">CGPA</label>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="center-align">
+                <button class="btn waves-effect waves-light blue" type="submit">
+                    Submit Job <i class="material-icons right">send</i>
+                </button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate The ATS Score</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 400px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h4 class="center-align">Calculate ATS Score</h4>
+
+    <form action="/calculate_ats_score" method="POST">
+        <div class="input-field">
+            <select id="dropdown" name="selected_option">
+                <option value="" disabled selected>Choose a Job Role</option>
+                {% for role in uniqueJobRole %}
+                    <option value="{{ role }}">{{ role }}</option>
+                {% endfor %}
+            </select>
+            <label>Select a Job Role</label>
+        </div>
+
+        <div class="center-align">
+            <button class="btn waves-effect waves-light blue" type="submit">
+                Submit <i class="material-icons right">send</i>
+            </button>
+        </div>
+    </form>
+</div>
+
+<!-- Materialize JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- Initialize Materialize Select -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll('select');
+        M.FormSelect.init(elems);
+    });
+</script>
+
+</body>
+</html>

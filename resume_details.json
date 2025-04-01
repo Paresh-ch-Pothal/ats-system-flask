@@ -1,0 +1,87 @@
+{
+    "Name": "Paresh Chandra Pothal",
+    "Summary": "Computer Science undergraduate with hands-on experience in full-stack development (MERN), passionate about artificial intelligence and machine learning. Seeking to apply my expertise to build innovative solutions. \u201cI am eager to apply my skills in full-stack development and AI/ML to solve real-world challenges, leveraging my technical expertise and passion for innovation.\u201d",
+    "Skills": [
+        "Python",
+        "JavaScript",
+        "C++",
+        "C",
+        "React Js",
+        "Node Js",
+        "MongoDB",
+        "NEXT js",
+        "Communication",
+        "Teamwork",
+        "Problem Solving",
+        "Management",
+        "Github",
+        "VS Code",
+        "Canva",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Material UI"
+    ],
+    "Education": [
+        {
+            "Institution": "Swami Vivekananda Banabharati Vidyapith, Koraput Odisha",
+            "Time Period": "2020-2021",
+            "Degree": "Class 10th (CBSE)",
+            "Percentage": "94.6%"
+        },
+        {
+            "Institution": "Vyomayana Samstha Vidyalaya Sunabeda, HAL, Koraput, Odisha",
+            "Time Period": "2021-2023",
+            "Degree": "Class 12th (CBSE)",
+            "Percentage": "93.8%",
+            "Other": "Jee Rank: 45500"
+        },
+        {
+            "Institution": "International Institute Of Information Technology Bhubaneswar,Odisha",
+            "Time Period": "2023-2027",
+            "Degree": "B.Tech In Computer Science and Engineering",
+            "Other": "CGPA(1st Year): 9.53"
+        }
+    ],
+    "Work Experience": [],
+    "Projects": [
+        {
+            "Name": "Anubandh : Alumini Networking System",
+            "Description": "Collaboratively developed an Alumni Networking System with my team using the MERN stack. The platform includes features like donation options, year-wise event categorization, and many more to enhance alumni engagement and networking.",
+            "Tech Stack": "MERN Stack"
+        },
+        {
+            "Name": "File Inventory System",
+            "Description": "Worked collaboratively with my team to build a File Inventory System using the MERN stack. The system simplifies file organization with features like secure file storage, advanced search capabilities, and a user-friendly interface.",
+            "Tech Stack": "MERN Stack"
+        },
+        {
+            "Name": "Code Compiler",
+            "Description": "Developed a Code Compiler that allows users to compile and run HTML, CSS, and JavaScript code directly in the browser. The project features a real-time editor and output display.",
+            "Tech Stack": "React Js"
+        },
+        {
+            "Name": "E-Commerce Website",
+            "Description": "Developed an E-Commerce Website using the MERN stack, providing features like user authentication, product catalog, shopping cart, and payment integration.",
+            "Tech Stack": "MERN Stack"
+        },
+        {
+            "Name": "TechXpert",
+            "Description": "Created Tech Expert, a platform connecting teachers and students for learning tech-related subjects, using the MERN stack. The system allows teachers to easily upload videos and students to access content after a simple login. It features a dashboard to track student performance and includes a job-finding system where students can directly connect with companies and explore job opportunities",
+            "Tech Stack": "MERN Stack"
+        }
+    ],
+    "Achievements": [
+        "IMO(International Math Olympaid): Gold Medal School Level (Class 7th)",
+        "IMO(International Math Olympaid): Silver Medal School Level (Class 6th)",
+        "Awarded State Scholarship Of Odisha",
+        "FInalist In D3 Hackathon 2024 Orgainzed by IIIT Bhubaneswar",
+        "Top 35 finalist from college for SIH",
+        "Participated in Smart India Hackathon 2024"
+    ],
+    "Certifications": [
+        "Certificate in AI/ML for Geospatial Data Analysis (IIRS and ISRO).",
+        "Certified for Problem-Solving Skills through competitive programming challenges.",
+        "Selected as a Contributor in GSSOC 2024"
+    ],
+    "CGPA": "9.53"
+}
