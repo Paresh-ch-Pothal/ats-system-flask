@@ -8,10 +8,12 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import os
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 CORS(app)
-GEMINI_API_KEY = "AIzaSyC0tsffQxhK2nwrj2Auaxelp6os0xjHE4U"
+load_dotenv()
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
 
 # class function for ats score
